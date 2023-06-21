@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LocalNotification" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.LocalNotification" parent="Base.Theme.LocalNotification" />
+
+    <style name="BottomSheetDialogAnimation">
+
+        <item name="android:windowEnterAnimation">@anim/animation_in</item>
+        <item name="android:windowExitAnimation">@anim/animation_out</item>
+
+    </style>
+
+</resources>
